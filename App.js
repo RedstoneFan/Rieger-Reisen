@@ -33,5 +33,5 @@ function zufallZiel(){
 }
 
 function wichtig() {
-    alert("Diese webseite ist nur ein Schulprojekt und besteht, abgesehen von den zwei animierten Bildern, <nobr> aus eigenen  Aufnahmen. Die Empfehlungen sind nur meine Meinung und sind aus eigenen Erfahrungen. Die Informationen auf dieser Webseite können von der Realität abweichen und/oder nicht mehr Aktuell sein.");
+    alert("Diese webseite ist nur ein Schulprojekt und besteht, abgesehen von den zwei animierten Bildern und dem Flugzeug,  aus eigenen  Aufnahmen. Die Empfehlungen sind nur meine Meinung und sind aus eigenen Erfahrungen. Die Informationen auf dieser Webseite können von der Realität abweichen und/oder nicht mehr Aktuell sein.");
 }
