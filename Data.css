@@ -253,15 +253,13 @@ a:hover {
 }
 
 #div-info {
-display: flex;
-justify-content: space-around;
 background-color: darkblue;
 width:98%;
 padding: 20px;
 }
 
 #info-img {
-    height: 200px;
+    height: 250px;
     background-color: gray;
     padding: 10px;    
     transition: transform 0.7s;
@@ -276,4 +274,56 @@ padding: 20px;
     font-size:20px;
     color: white;
     padding: 20px;
+}
+
+/*Anpassung fürs handy*/
+@media screen and (max-width: 1000px) {
+    body {
+       background-image: none;
+    }
+    #Ktitle-txt {
+        font-size: 30px;
+    }
+    #tip-txt {        
+        font-size: 25px;
+    }
+    #ziel-map {
+        display: none;  /* Versteckt den Dropdown-Inhalt standardmäßig */
+    }
+    #top-img {
+        height: auto;
+        width: 95%;
+        padding: 5px;
+    }
+    #info-txt {
+        padding: 1px;
+        background-color: darkblue;
+    }
+    #div-info {
+        width: 89%; 
+    }
+    #title-img {
+        height: 150px;
+    }
+    #title-txt {
+        font-size: 30px;
+    }
+    #tip-img {
+        height: 150px;
+    }
+    #flugzeug {
+        height: 0px;
+    }
+    #Ititle-txt {
+        font-size: 20px;
+    }
+    #Itxt {
+        font-size: 15px;
+    }
+}
+@media screen and (min-width: 1000px) {
+    #div-info {
+        display: flex;
+        justify-content: space-around;        
+    }
 }
