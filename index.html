@@ -1,13 +1,16 @@
+<!--Dieser code ist mit dem von "Rieger-reisen.html" sehr ählich und wird nur beim öfnen ei-->
 <!DOCTYPE html>
 <html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rieger-Reisen</title>
-    <link rel="stylesheet" type="text/css" href="Data.css">
+    <link rel="stylesheet" type="text/css" href="Data.css">                     <!-- Einbindung eines externen CSS-Stylesheets -->
     
+    <!-- Preconnect-Links für die Optimierung der Verbindung zu Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Einbindung der Google Fonts "Edu TAS Beginner" und "Rubik" -->
     <link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500;600;700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 
@@ -15,11 +18,11 @@
 
 
 <body>
-    <div id="navbar" style="position:fixed; z-index:999;">
+    <div id="navbar" style="position:fixed; z-index:999;">                      <!-- Ein fixiertes Navigationsmenü mit hoher Z-Index-Wert -->
         <div id="div-nav">
-            <div ><button class="dropbtn"><a href="Rieger-reisen.html" id="navbar-akt">Home</a></button> | </div>
+            <div ><button class="dropbtn"><a href="Rieger-reisen.html" id="navbar-akt">Home</a></button> | </div>   <!-- Button mit Link für "Home" -->
             <div class="dropdown">
-                <button class="dropbtn"><a href="Katalog.html">Katalog</a></button>
+                <button class="dropbtn"><a href="Katalog.html">Katalog</a></button>                                  <!-- Dropdown-Menü für "Katalog" mit Unterverlinkungen -->
                 <div class="dropdown-content">
                     <a href="Paris.html">Paris</a>
                     <a href="Rom.html">Rom</a>
@@ -30,11 +33,12 @@
                     <a href="Barcelona.html">Barcelona</a>
                   </div>
             </div>
-            <div ><button class="dropbtn"> | <a href="Info.html">Über uns</a></button></div>
+            <div ><button class="dropbtn"> | <a href="Info.html">Über uns</a></button></div>                        <!-- Button mit Link für "Über uns" -->
         </div>
     </div>
     <br><br>
 
+    <!-- Zentrierter Abschnitt mit Bild und Text -->
     <div id="div-content-center">
         <img id="title-img" src="RiegerReisenLogo.png">   
         <div id="title-txt">
@@ -42,28 +46,30 @@
         </div>
     </div>
     <br>
+    
+    <!-- Weiterer zentrierter Abschnitt mit Text und Bild -->
     <div id="div-content-center">
         <span id="tip-txt" id="div-content-center">Mit unseren Tipps kommen sie endlich an ihr Traumziel </span>
         <img id="tip-img" src="Erde.gif">
     </div>
     <br><br>
 
-    <img src="Flugzeug.png" id="flugzeug">
+    <img src="Flugzeug.png" id="flugzeug">                                      <!-- Bild eines Flugzeugs mit Animation-->
     <br><br>
 
     <div id="div-Ang">
         <span id="ziel-txt" >
             <br>Auf dieser Webseite können Sie nicht nur Ihr Traumziel finden, Sie können sich auch direkt darüber informieren.
-            <br>Zu den meisten Orten Bieten wir ihnen auch den ein oder anderen Geheimtipp an, den unsere Redakteure bei ihren Reisen gefunden haben.
+            <br>Zu den meisten Orten bieten wir ihnen auch den ein oder anderen Geheimtipp an, den unsere Redakteure bei ihren Reisen gefunden haben.
             Drücken sie nun auf "<a href="Katalog.html" id="ziel-txt-link">Katalog</a>" um sich inspirieren zu lassen. 
             <br><br>
         </span>
     </div>
 
     <br><br>
-    <button><a href="Rieger-reisen.html">zurück nach oben</a> </button><br>
+    <button><a href="Rieger-reisen.html">zurück nach oben</a> </button><br>     <!-- Button zum Zurückscrollen nach oben -->
 </body>
 
-<script>wichtig()</script>
+<script>wichtig()</script>                                                      <!-- Aufruf der JavaScript-Funktion "wichtig()" -->
 
 </html>

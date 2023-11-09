@@ -1,112 +1,111 @@
 
 /* Scrollbar styles */
 ::-webkit-scrollbar {
-    width: 12px;
-    height: 12px;
+    width: 12px;  /* Breite der Scroll-Leiste */
+    height: 12px; /* Höhe der Scroll-Leiste */
 }
 
 ::-webkit-scrollbar-track {
-    background: gray;
-    border-radius: 10px;
+    background: gray;   /* Hintergrundfarbe des Scrollbar-Tracks */
+    border-radius: 10px; /* Radius der Ecken des Scrollbar-Tracks */
 }
 
 ::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    background: darkblue;  
+    border-radius: 10px; /* Radius der Ecken des Scrollbar-Thumb */
+    background: darkblue;  /* Farbe des Scrollbar-Thumbs */
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: rgb(0, 0, 90);  
+    background: rgb(0, 0, 90);  /* Farbe des Scrollbar-Thumbs bei Hover */
 }
 
 
 /*Agemein Style*/
 body {
-    font-family: 'Rubik', sans-serif;
-    background-color: rgb(80, 80, 255);
-    font-family: 'Open Sans', sans-serif;
-    padding-left: 10px;
-    padding-right: 10px;
-
-    background-image: url("backgroud-map.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;   
-    background-size: 100%,auto; 
+    font-family: 'Rubik', sans-serif;  /* Verwendung der Rubik-Schriftart */
+    background-color: rgb(80, 80, 255);  /* Hintergrundfarbe des Body */
+    padding-left: 10px;  /* Abstand links */
+    padding-right: 10px;  /* Abstand rechts */
+    background-image: url("backgroud-map.jpg");  /* Hintergrundbild */
+    background-repeat: no-repeat;  /* Wiederholung des Hintergrundbilds verhindern */
+    background-position: center;  /* Zentrierung des Hintergrundbilds */
+    background-attachment: fixed;  /* Fixierung des Hintergrundbilds beim Scrollen */
+    background-size: 100%, auto;  /* Größe des Hintergrundbilds */
 }
 
+/* Stil für Hyperlinks */
 a {
-    text-decoration: none;
-    color: black;
+    text-decoration: none;  /* Keine Unterstreichung für Links */
+    color: black;  /* Textfarbe für Links */
 }
 
 a:hover {
-    background-color: darkgray;
-    text-decoration: underline;
+    background-color: darkgray;  /* Hintergrundfarbe für Links bei Hover */
+    text-decoration: underline;  /* Unterstreichung für Links bei Hover */
 }
 
 
 
 /*navbar Style*/
 #navbar {
-    width: 100%;
+    width: 100%;  /* Breite der Navbar */
 }
 
 #div-nav {
     display: flex;
-    justify-content: left;
-    background-color: lightgray;
-    font-size: 25px;
-    padding-left: 10px;
-    padding-right: 10px;   
-    color: black;
+    justify-content: left;  /* Linksausrichtung des Navbar-Inhalts */
+    background-color: lightgray;  /* Hintergrundfarbe der Navbar */
+    font-size: 25px;  /* Schriftgröße der Navbar-Elemente */
+    padding-left: 10px;  /* Abstand links */
+    padding-right: 10px;  /* Abstand rechts */
+    color: black;  /* Textfarbe der Navbar */
 }
 
 #navbar-akt {
-    background-color: gray;
+    background-color: gray;  /* Hintergrundfarbe für das aktive Navbar-Element */
 }
 
 
     .dropbtn {
-        background-color: lightgray;
-        font-size: 25px;
-        color: black;
-        border: none;
+        background-color: lightgray;  /* Hintergrundfarbe des Dropdown-Buttons */
+        font-size: 25px;  /* Schriftgröße des Dropdown-Buttons */
+        color: black;  /* Textfarbe des Dropdown-Buttons */
+        border: none;  /* Kein Rand für den Dropdown-Button */
     }
     
     .dropdown {
-        position: relative;
-        display: inline-block;
+        position: relative;  /* Position relativ zum normalen Fluss */
+        display: inline-block;  /* Zeigt das Element als Inline-Block an */
     }
     
     .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: lightgray;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
+        display: none;  /* Versteckt den Dropdown-Inhalt standardmäßig */
+        position: absolute;  /* Position absolut zum übergeordneten Element */
+        background-color: lightgray;  /* Setzt die Hintergrundfarbe für den Dropdown-Inhalt */
+        min-width: 160px;  /* Mindestbreite des Dropdown-Inhalts */
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);  /* Fügt einen Schatten zum Dropdown-Inhalt hinzu */
+        z-index: 1;  /* Setzt die Z-Reihenfolge des Dropdowns über andere Elemente */
     }
     
     .dropdown-content a {
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
+        color: black;  /* Setzt die Textfarbe für Dropdown-Links auf Schwarz */
+        padding: 12px 16px;  /* Fügt Polsterung für Dropdown-Links hinzu */
+        text-decoration: none;  /* Entfernt die Unterstreichung von Links */
+        display: block;  /* Zeigt die Links als Blockelemente an */
     }
     
-    .dropdown-content a:hover {background-color: darkgray;}
+    .dropdown-content a:hover {background-color: darkgray;}     /* Setzt die Hintergrundfarbe beim Hovern über Dropdown-Links */
     
-    .dropdown:hover .dropdown-content {display: block;}
+    .dropdown:hover .dropdown-content {display: block;}           /* Zeigt den Dropdown-Inhalt beim Hovern über das Dropdown an */
     
-    .dropdown:hover .dropbtn {background-color: darkgray;}
+    .dropdown:hover .dropbtn {background-color: darkgray;}      /* Setzt die Hintergrundfarbe für den Button beim Hovern über das Dropdown */
 
 
 
 /*Home Style*/
 #div-content-center {
     display: flex;
-    justify-content: center;
+    justify-content: center;    /* Zentriert den Inhalt horizontal */
 }
 
 #title-img {
@@ -126,23 +125,23 @@ a:hover {
 
 #flugzeug {
     height: 150px;
-    transition: transform 0.7s;
+    transition: transform 0.7s;         /* Fügt eine Transformation hinzu, um das Flugzeug zu animieren */
 }
 
 #flugzeug:hover {
-    transform: translate(500px, 0px); 
+    transform: translate(500px, 0px);   /* Bewegt das Flugzeug beim Hovern nach rechts */
 }
 
 
 /*Katalog Style*/
 #tip-txt {
-    font-family: 'Edu TAS Beginner', cursive;
-    border-radius: 150px;
-    display:flex;
-    align-items: center;
-    font-size: 50px;
-    padding: 30px;
-    background-color: gray;
+    font-family: 'Edu TAS Beginner', cursive;   /* Verwendet die Schriftart 'Edu TAS Beginner' für den Text */
+    border-radius: 150px;                       /* Setzt den Randradius für das Element */
+    display: flex;                              /* Zeigt das Element als Flexbox an */
+    align-items: center;                        /* Zentriert die Inhalte vertikal */
+    font-size: 50px;                            /* Setzt die Schriftgröße auf 50 Pixel */
+    padding: 30px;                              /* Fügt Innenabstand hinzu */
+    background-color: gray;                   /* Setzt die Hintergrundfarbe auf Grau */
 }
 
 #tip-img {
@@ -167,7 +166,7 @@ a:hover {
 
 #div-Alg {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around;          /* Verteilt die Inhalte gleichmäßig mit Raum dazwischen */
 }
 
 #div-Ang {
@@ -187,7 +186,7 @@ a:hover {
 }
 
 #ziel-img:hover {
-    transform: scale(1.8,1.8) translate(30px, 0px);
+    transform: scale(1.8,1.8) translate(30px, 0px);             /* Skaliert und verschiebt das Bild beim Hovern */
 }
 
 #ziel-txt {
@@ -269,7 +268,7 @@ padding: 20px;
 }
 
 #info-img:hover {
-    transform: scale(1.8,1.8) translate(30px, 0px);
+    transform: scale(1.8,1.8) translate(30px, 0px);         /* Skaliert und verschiebt das Bild beim Hovern */
 }
 
 #info-txt {

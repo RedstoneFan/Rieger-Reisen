@@ -1,8 +1,8 @@
 function zufallZiel(){
-    var zufall = Math.round(Math.random() * (7 - 1)) + 1;
+    var zufall = Math.round(Math.random() * (7 - 1)) + 1;     // Generiere eine Zufallszahl zwischen 1 und 7
     var ziel ;
-        console.log(zufall);
 
+    // Verwende eine Switch-Anweisung, um das Ziel entsprechend der Zufallszahl festzulegen
     switch(zufall) {
         case 1: ziel = "Paris"; break;
         case 2: ziel = "Rom"; break;
@@ -11,11 +11,12 @@ function zufallZiel(){
         case 5: ziel = "Athen"; break;
         case 6: ziel = "Pisa"; break;
         case 7: ziel = "Barcelona"; break;
-        default: zufallZiel(); break;
+        default: zufallZiel(); break;       // Bei einer unerwarteten Zufallszahl rufe die Funktion erneut auf
     }
 
-    if(confirm("Für Sie wurde " + ziel + " ausgelost. Wist du dort hin weiter geleitet werden?"))
-    {
+    if(confirm("Für Sie wurde " + ziel + " ausgelost. Wist du dort hin weiter geleitet werden?"))       // Zeige eine Bestätigungsbox mit dem ausgewählten Ziel an
+    {        
+        // Verwende erneut eine Switch-Anweisung, um je nach Ziel die Webseite umzuleiten
         switch(zufall) {
         case 1: window.location.href = "Paris.html"; break;
         case 2: window.location.href = "Rom.html"; break;
@@ -29,9 +30,10 @@ function zufallZiel(){
     }
     
 
-    return;
+    return; // Beende die Funktion
 }
 
+// Funktion zur Anzeige einer Benachrichtigung über wichtige Informationen zur Webseite
 function wichtig() {
-    alert("Diese webseite ist nur ein Schulprojekt und besteht, abgesehen von den zwei animierten Bildern und dem Flugzeug,  aus eigenen  Aufnahmen. Die Empfehlungen sind nur meine Meinung und sind aus eigenen Erfahrungen. Die Informationen auf dieser Webseite können von der Realität abweichen und/oder nicht mehr Aktuell sein.");
+    alert("Diese Webseite ist nur ein Schulprojekt und besteht, abgesehen von den zwei animierten Bildern, dem Flugzeug und dem Hintergrund,  aus eigenen  Aufnahmen. Die Empfehlungen sind nur meine Meinung und sind aus eigenen Erfahrungen. Die Informationen auf dieser Webseite können von der Realität abweichen und/oder nicht mehr aktuell sein.");
 }

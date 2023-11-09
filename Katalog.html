@@ -33,6 +33,7 @@
     </div>
     <br><br>
 
+    <!-- Zentrierter Abschnitt mit Bild und Text für den Katalogtitel -->
     <div id="div-content-center">
         <img id="Ktitle-img" src="RiegerReisenLogo.png">   
         <span id="Ktitle-txt">Unser Angebot für sie</span>
@@ -44,7 +45,9 @@
         <img id="auto-img" src="Auto.gif">
     </div>
     <br>
-
+    
+    <!-- Abschnitte für verschiedene Reiseziele (Paris, Rom, London, Straßburg, Athen, Pisa, Barcelona) -->
+    <!-- Jeder Abschnitt enthält ein Bild, eine Liste von Sehenswürdigkeiten und einen Google Maps Iframe -->
     <!--Paris-->
     <div id="div-Alg">
         <a href="Paris.html" id="div-Alg"><img id="ziel-img" src="Eifelturm.JPEG"></a>
@@ -57,6 +60,7 @@
                 <li><a href="Paris.html" id="ziel-txt-link"><nobr>mehr Infos</nobr></a></li>
             </ul></span>
         </div>            
+        <!-- Google Maps Iframe für die Darstellung des Standorts von Paris -->
         <iframe id="ziel-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d167997.8370248926!2d2.347035!3d48.85885484999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis%2C%20Frankreich!5e0!3m2!1sde!2sde!4v1698756721978!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <br><br>
@@ -158,12 +162,13 @@
     </div>
     <br><br>
     
+    <!-- Abschnitt für die Möglichkeit, ein zufälliges Ziel auszuwählen -->
     <div id="div-Ang">
         <span id="wichtig-txt" >
             <b>Können Sie sich nicht Entscheiden?</b>
             <br><br>
             Wenn sie auf diesen Button drücken wird ihnen ein zufälliges Ziel rausgesucht. <br><br>
-            <a href="javascript:zufallZiel();" id="but-txt">Zufallsziel</a>
+            <a href="javascript:zufallZiel();" id="but-txt">Zufallsziel</a>                             <!--ruft die js Funktion auf bei knopfdruck-->
             <br><br>
         </span>
     </div>
@@ -171,4 +176,4 @@
     <br><br>
     <button><a href="#" >zurück nach oben</a> </button><br>
 </body>
-</html>
+</html>                              
