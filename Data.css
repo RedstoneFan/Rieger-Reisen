@@ -56,8 +56,6 @@ a:hover {
     justify-content: left;  /* Linksausrichtung des Navbar-Inhalts */
     background-color: lightgray;  /* Hintergrundfarbe der Navbar */
     font-size: 25px;  /* Schriftgröße der Navbar-Elemente */
-    padding-left: 10px;  /* Abstand links */
-    padding-right: 10px;  /* Abstand rechts */
     color: black;  /* Textfarbe der Navbar */
 }
 
