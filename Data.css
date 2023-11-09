@@ -175,27 +175,27 @@ a:hover {
     padding-left: 20px;
 }
 
-#zihl-img {
+#ziel-img {
     height: 220px;    
     transition: transform 0.7s;
 }
 
-#zihl-img:hover {
+#ziel-img:hover {
     transform: scale(1.8,1.8) translate(30px, 0px);
 }
 
-#zihl-txt {
+#ziel-txt {
     font-size: 15px;
     color: white;
     padding-left: 20spx;
 }
 
-#zihl-txt-link {
+#ziel-txt-link {
     text-decoration: underline;
     color: white;
 }
 
-#zihl-map {
+#ziel-map {
     padding: 10px;
     background-color: darkblue;
     height: 200px;
