@@ -27,6 +27,12 @@ body {
     font-family: 'Open Sans', sans-serif;
     padding-left: 10px;
     padding-right: 10px;
+
+    background-image: url("backgroud-map.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;   
+    background-size: 100%,auto; 
 }
 
 a {
@@ -245,8 +251,6 @@ a:hover {
 #div-top {
     display: flex;
     justify-content: space-around;
-    background-color: gray;
-    width:98%;
 }
 
 #div-info {
