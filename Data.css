@@ -1,0 +1,276 @@
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: gray;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: darkblue;  
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 0, 90);  
+}
+
+
+/*Agemein Style*/
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: rgb(80, 80, 255);
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background-color: darkgray;
+    text-decoration: underline;
+}
+
+
+
+/*navbar Style*/
+#navbar {
+    width: 100%;
+}
+
+#div-nav {
+    display: flex;
+    justify-content: left;
+    background-color: lightgray;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;   
+    color: black;
+}
+
+#navbar-akt {
+    background-color: gray;
+}
+
+
+    .dropbtn {
+        background-color: lightgray;
+        font-size: 25px;
+        color: black;
+        border: none;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: lightgray;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .dropdown-content a:hover {background-color: darkgray;}
+    
+    .dropdown:hover .dropdown-content {display: block;}
+    
+    .dropdown:hover .dropbtn {background-color: darkgray;}
+
+
+
+/*Home Style*/
+#div-content-center {
+    display: flex;
+    justify-content: center;
+}
+
+#title-img {
+    height: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+#title-txt {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    padding: 16px;
+    background-color: white;
+}
+
+#flugzeug {
+    height: 150px;
+    transition: transform 0.7s;
+}
+
+#flugzeug:hover {
+    transform: translate(500px, 0px); 
+}
+
+
+/*Katalog Style*/
+#tip-txt {
+    font-family: 'Edu TAS Beginner', cursive;
+    border-radius: 150px;
+    display:flex;
+    align-items: center;
+    font-size: 50px;
+    padding: 30px;
+    background-color: gray;
+}
+
+#tip-img {
+    height: 300px;
+    padding: 5px;
+}
+
+#Ktitle-img {    
+    height: 100px;
+    padding: 10px;
+    background-color: white;
+}
+
+#Ktitle-txt {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    padding: 10px;
+    background-color: white;
+}
+
+#div-Alg {
+    display: flex;
+    justify-content: space-around;
+}
+
+#div-Ang {
+    background-color: darkblue;
+    padding: 10px;
+    width: 90%;
+}
+
+#auto-img {
+    height: 200px;
+    padding-left: 20px;
+}
+
+#zihl-img {
+    height: 220px;    
+    transition: transform 0.7s;
+}
+
+#zihl-img:hover {
+    transform: scale(1.8,1.8) translate(30px, 0px);
+}
+
+#zihl-txt {
+    font-size: 15px;
+    color: white;
+    padding-left: 20spx;
+}
+
+#zihl-txt-link {
+    text-decoration: underline;
+    color: white;
+}
+
+#zihl-map {
+    padding: 10px;
+    background-color: darkblue;
+    height: 200px;
+}
+
+#but-txt {
+    background-color: darkgrey;
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+}
+
+/*Über uns Style*/
+#Ititle-txt  {
+    font-size:40px;
+    padding: 20px;
+    background-color: white; 
+}
+
+#Itxt {
+    font-size:25px;
+    background-color: white; 
+}
+
+#warnung-txt {
+    background-color: red;
+    width: 99%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#wichtig-txt {
+    background-color: darkblue;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+}
+
+/*Unter Katalog Style*/
+#top-img {
+    background-color: gray;
+    height: 500px;
+    padding: 15px;
+}
+
+#div-top {
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    width:98%;
+}
+
+#div-info {
+display: flex;
+justify-content: space-around;
+background-color: darkblue;
+width:98%;
+padding: 20px;
+}
+
+#info-img {
+    height: 200px;
+    background-color: gray;
+    padding: 10px;    
+    transition: transform 0.7s;
+}
+
+#info-img:hover {
+    transform: scale(1.8,1.8) translate(30px, 0px);
+}
+
+#info-txt {
+    background-color: gray;
+    font-size:20px;
+    color: white;
+    padding: 20px;
+}
