@@ -321,6 +321,7 @@ padding: 20px;
         font-size: 15px;
     }
 }
+
 @media screen and (min-width: 1000px) {
     #div-info {
         display: flex;
