@@ -30,7 +30,7 @@ body {
     background-repeat: no-repeat;  /* Wiederholung des Hintergrundbilds verhindern */
     background-position: center;  /* Zentrierung des Hintergrundbilds */
     background-attachment: fixed;  /* Fixierung des Hintergrundbilds beim Scrollen */
-    background-size: auto, 100%;  /* Größe des Hintergrundbilds */
+    background-size: 100%, auto;  /* Größe des Hintergrundbilds */
 }
 
 /* Stil für Hyperlinks */
