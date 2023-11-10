@@ -297,6 +297,9 @@ padding: 20px;
         padding: 1px;
         background-color: darkblue;
     }
+    #info-img {
+        height: 200px;
+    }
     #div-info {
         width: 89%; 
     }
