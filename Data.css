@@ -319,10 +319,10 @@ padding: 20px;
         font-size: 15px;
     }
     #div-nav {
-        font-size: 15px;  /* Schriftgröße der Navbar-Elemente */
+        font-size: 20px;  /* Schriftgröße der Navbar-Elemente */
     }
     .dropbtn {
-        font-size: 15px;  /* Schriftgröße des Dropdown-Buttons */
+        font-size: 20px;  /* Schriftgröße des Dropdown-Buttons */
     }
 }
 
