@@ -87,7 +87,7 @@ a:hover {
     
     .dropdown-content a {
         color: black;  /* Setzt die Textfarbe für Dropdown-Links auf Schwarz */
-        padding: 12px 16px;  /* Fügt Polsterung für Dropdown-Links hinzu */
+        padding: 12px 12px;  /* Fügt Polsterung für Dropdown-Links hinzu */
         text-decoration: none;  /* Entfernt die Unterstreichung von Links */
         display: block;  /* Zeigt die Links als Blockelemente an */
     }
@@ -317,6 +317,12 @@ padding: 20px;
     }
     #Itxt {
         font-size: 15px;
+    }
+    #div-nav {
+        font-size: 15px;  /* Schriftgröße der Navbar-Elemente */
+    }
+    .dropbtn {
+        font-size: 15px;  /* Schriftgröße des Dropdown-Buttons */
     }
 }
 
