@@ -276,6 +276,9 @@ padding: 20px;
 
 /*Anpassung fürs handy*/
 @media screen and (max-width: 1000px) {
+    body {
+        background-repeat: repeat;
+    }
     #Ktitle-txt {
         font-size: 30px;
     }
